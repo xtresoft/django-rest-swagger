@@ -24,8 +24,10 @@ DEFAULTS = {
         'delete',
         'patch'
     ],
-    'VALIDATOR_URL': '',
     'BASE_PATH': '',
+    'VALIDATOR_URL': '',
+    'ACCEPT_HEADER_VERSION': None,  # e.g. '1.0'
+    'CUSTOM_HEADERS': {}  # A dictionary of key/vals to override headers
 }
 
 IMPORT_STRINGS = []

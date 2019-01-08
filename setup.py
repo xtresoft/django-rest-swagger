@@ -46,6 +46,7 @@ setup(
         'coreapi>=2.3.0',
         'openapi-codec>=1.3.1',
         'djangorestframework>=3.5.4',
+        'Django>=1.8',
         'simplejson'
     ],
     packages=['rest_framework_swagger'],
@@ -63,6 +64,9 @@ setup(
         'Framework :: Django :: 1.8',
         'Framework :: Django :: 1.9',
         'Framework :: Django :: 1.10',
+        'Framework :: Django :: 1.11',
+        'Framework :: Django :: 2.0',
+        'Framework :: Django :: 2.1',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
