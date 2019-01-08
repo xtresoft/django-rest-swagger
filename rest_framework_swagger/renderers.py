@@ -40,6 +40,7 @@ class OpenAPIRenderer(BaseRenderer):
         data = {}
         if settings.SECURITY_DEFINITIONS:
             data['securityDefinitions'] = settings.SECURITY_DEFINITIONS
+        data['basePath'] = settings.BASE_PATH
 
         return data
 
